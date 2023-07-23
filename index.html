@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <title>Gabriel Flechas</title> 
   </head>
   <body>
     <main>
-        <h1>Hello Internet Wanderer!</h1>
-        <!-- <img src="cowboy-hat-face_1f920.gif" height="128" alt="cool cowboy"> -->
-        <p>And welcome to my website.</p>
-        <h2>About Me</h2>
-        <p>My name is Gabriel Flechas. Currently looking for a job in software development.</p>
-        <p>Contact me at <a href="mailto:gabrielflech@gmail.com">gabrielflech@gmail.com</a> or take a look at my <a href="www.gabrielflechas.com/resume">resume</a>.</p>
+        <header class="main-header">
+          <h1>Gabriel Flechas</h1>
+          <ul>
+            <li><a href="mailto:gabrielflech@gmail.com">Email</a></li>
+            <li><a href="www.gabrielflechas.com/resume">Resume</a></li>
+          </ul>
+        </header>
+        <div class="about-me">
+          <h2>About Me</h2>
+          <img class="profile-pic" src="profile.jpg">
+          <p>Recent alumni from the University of Florida. Currently looking for a job in software development.</p>
+          <p>Contact me at <a href="mailto:gabrielflech@gmail.com">gabrielflech@gmail.com</a> or take a look at my <a href="www.gabrielflechas.com/resume">resume</a>.</p>
+        </div>
         <h2>Projects</h2>
         <h3>NES Emulator | <a href="https://github.com/jtrosty/EmuGators">GitHub</a></h3>
         <p>For my senior capstone project, I worked with a team to create a NES emulator using C++ with QT. 
           This emulator also includes additional features designed to increase immersion, specifically gameplay sensing LED lights and real-time weather effect integration.
         </p>
-        <h3><a href="https://gabrielflechas.com">Chess</a> | <a href="https://gabrielflechas.com/chess.html">GitHub</a></h3>
-        <p>Work in progress chess project, currently trying to decided if I want to use pure JS and HTML or if I want to try React.
         </p>
         <h3>This Page! | <a href="https://github.com/gabrielflechas/PersonalSite">GitHub</a></h3>
         <p>This website started as a way to get more experience in web development. This home page is currently pure HTML and CSS. It hosts links to my other projects as well as some info about me.

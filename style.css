@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(23, 119, 47, 0.3);
+}
+a{
+    color: rgb(30, 73, 129);
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(106, 151, 115);
+    padding:10px;
+    height: 50px;
+    width: 100%;
+
+}
+
+.main-header ul{
+    order:2;
+    padding: 10%, 0;
+}
+.main-header h1 {
+    order:1;
+}
+
+.main-header li{
+    display: flex;
+    justify-content: right; 
+    margin: 5px;
+    font-size: large;
+}
+
+.about-me{
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5%;
+    margin : 5% 10%;
+    padding: 10px;
+}
+.about-me .profile-pic{
+    height:300px;
+    border-radius: 100%;
+}
