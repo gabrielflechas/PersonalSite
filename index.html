@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <title>Gabriel Flechas</title> 
-  </head>
-  <body>
-    <main>
-        <header class="main-header">
-          <h1>Gabriel Flechas</h1>
-          <ul>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Flechas | Software Developer</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Gabriel Flechas</h1>
+        <ul>
             <li><a href="mailto:gabrielflech@gmail.com">Email</a></li>
-            <li><a href="www.gabrielflechas.com/resume">Resume</a></li>
-          </ul>
-        </header>
-        <div class="about-me">
-          <h2>About Me</h2>
-          <img class="profile-pic" src="profile.jpg">
-          <p>Recent alumni from the University of Florida. Currently looking for a job in software development.</p>
-          <p>Contact me at <a href="mailto:gabrielflech@gmail.com">gabrielflech@gmail.com</a> or take a look at my <a href="www.gabrielflechas.com/resume">resume</a>.</p>
-        </div>
-        <h2>Projects</h2>
-        <h3>NES Emulator | <a href="https://github.com/jtrosty/EmuGators">GitHub</a></h3>
-        <p>For my senior capstone project, I worked with a team to create a NES emulator using C++ with QT. 
-          This emulator also includes additional features designed to increase immersion, specifically gameplay sensing LED lights and real-time weather effect integration.
-        </p>
-        </p>
-        <h3>This Page! | <a href="https://github.com/gabrielflechas/PersonalSite">GitHub</a></h3>
-        <p>This website started as a way to get more experience in web development. This home page is currently pure HTML and CSS. It hosts links to my other projects as well as some info about me.
-        </p>
+            <li><a href="/resume">Resume</a></li>
+        </ul>
+    </header>
 
+    <main>
+        <section class="about-me">
+            <img class="profile-pic" src="profile.jpg" alt="Gabriel Flechas">
+            <h2>About Me</h2>
+            <p>Programmer at Daytona State College. Enjoy the Site!</p>
+            <p>Contact me at <a href="mailto:gabrielflech@gmail.com">gabrielflech@gmail.com</a> or take a look at my <a href="/resume">resume</a>.</p>
+        </section>
 
+        <section class="projects">
+            <div class="project">
+                <h3>
+                    NES Emulator
+                    <a href="https://github.com/jtrosty/EmuGators">GitHub</a>
+                </h3>
+                <p>For my senior capstone project, I worked with a team to create a NES emulator using C++ with QT. This emulator also includes additional features designed to increase immersion, specifically gameplay sensing LED lights and real-time weather effect integration.</p>
+            </div>
+            
+            <div class="project">
+                <h3>
+                    Personal Website
+                    <a href="https://github.com/gabrielflechas/PersonalSite">GitHub</a>
+                </h3>
+                <p>This website started as a way to get more experience in web development. This home page is currently pure HTML and CSS. It hosts links to my other projects as well as some info about me.</p>
+            </div>
+        </section>
     </main>
-  </body>
+</body>
 </html>
